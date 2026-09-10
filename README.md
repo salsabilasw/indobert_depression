@@ -28,3 +28,5 @@ Text Mining for Classifying Potentially Depressive Tweets on X Using IndoBERT. (
 - The model works well for text mining in classifying potentially depressive and normal tweets, with an accuracy of 87%, precision of 87%, recall of 87%, and an f1 score of 87%.
 - The model’s performance affected by class imbalance, so it tended to be better at predicting the majority label (normal) than the minority label (depression).
 
+### Note
+If you find our work and dataset useful, please cite our [paper](https://doi.org/10.36456/jstat.vol18.no2.a10873)
