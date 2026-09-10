@@ -20,7 +20,7 @@ Text Mining for Classifying Potentially Depressive Tweets on X Using IndoBERT. (
 - Pre-Fine-Tuning Model using https://github.com/azizp128/prediksi-emosi-indobert
 - Fine-Tuning Model using learning rate of 2e-05, batch size 8, and 2 epochs
 - Evaluation
-- Implementation to Streamlit
+- Implementation to Streamlit + Confidence Score
 
 ### Results
 - 4,987 clean data with 2 attributes (label and full_text), 3,281 normal and 1,706 potentially depressed.
