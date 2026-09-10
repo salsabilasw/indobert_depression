@@ -1,4 +1,4 @@
-# indobert_depression
+# Text Mining for Classifying Potentially Depressive Tweets on X Using IndoBERT
 Model IndoBERT ini digunakan untuk riset tugas akhir (skripsi) klasifikasi teks berpotensi depresi dan normal/non-depresi, published in
 Text Mining for Classifying Potentially Depressive Tweets on X Using IndoBERT. (2025). J Statistika: Jurnal Ilmiah Teori Dan Aplikasi Statistika, 18(2), 1073-1085. https://doi.org/10.36456/jstat.vol18.no2.a10873
 
