@@ -1,11 +1,10 @@
 # Text Mining for Classifying Potentially Depressive Tweets on X Using IndoBERT
-Model IndoBERT ini digunakan untuk riset tugas akhir (skripsi) klasifikasi teks berpotensi depresi dan normal/non-depresi, published in
-Text Mining for Classifying Potentially Depressive Tweets on X Using IndoBERT. (2025). J Statistika: Jurnal Ilmiah Teori Dan Aplikasi Statistika, 18(2), 1073-1085. https://doi.org/10.36456/jstat.vol18.no2.a10873
+Kode, dataset, dan model pre-trained IndoBERT ini digunakan untuk riset tugas akhir (skripsi) klasifikasi teks berpotensi depresi dan normal/non-depresi, published in Text Mining for Classifying Potentially Depressive Tweets on X Using IndoBERT. (2025). J Statistika: Jurnal Ilmiah Teori Dan Aplikasi Statistika, 18(2), 1073-1085. https://doi.org/10.36456/jstat.vol18.no2.a10873
 
 ### Code 
-- crawling: crawl_Xkomen_depresi.ipynb
-- preprocessing: prepoX_depresi.ipynb
-- main: rill_skripsi_nt.ipynb
+- crawling: crawlingX-depresi.ipynb
+- preprocessing: preproX-depresi.ipynb
+- main: fullcodeX-depresi.ipynb
 
 ### Methods
 - Crawling: 5,000 tweets from X users between October 1st, 2024, and January 31st, 2025 using Tweet Harvest
@@ -19,7 +18,7 @@ Text Mining for Classifying Potentially Depressive Tweets on X Using IndoBERT. (
 - IndoBERT Tokenization
 - Pre-Fine-Tuning Model using https://github.com/azizp128/prediksi-emosi-indobert
 - Fine-Tuning Model using learning rate of 2e-05, batch size 8, and 2 epochs
-- Evaluation
+- Evaluation: accuracy, precision, recall, f1 score
 - Implementation to Streamlit + Confidence Score
 
 ### Results
